@@ -53,7 +53,7 @@ async created(){
       
     }
     ,search(searchString,tag){
-      
+      this.error="";
       if(searchString==="" && tag ===""){
         this.posts = this.referancePosts
       }else{
